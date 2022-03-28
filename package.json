@@ -9,8 +9,8 @@
     },
     "scripts": {
         "test": "NODE_ENV=test jest",
-        "build": "rimraf dist && webpack",
-        "dev": "webpack -w",
+        "build": "rimraf dist && rpgjs build",
+        "dev": "rpgjs dev",
         "start": "node dist/server"
     },
     "keywords": [],
@@ -20,27 +20,25 @@
         "node": "<15"
     },
     "dependencies": {
-        "@rpgjs/client": "^3.0.0-beta.4",
-        "@rpgjs/default-gui": "^3.0.0-beta.4",
-        "@rpgjs/gamepad": "^3.0.0-beta.4",
-        "@rpgjs/mobile-gui": "^3.0.0-beta.4",
-        "@rpgjs/server": "^3.0.0-beta.4",
-        "@rpgjs/standalone": "^3.0.0-beta.4",
-        "@rpgjs/testing": "^3.0.0-beta.4",
+        "@rpgjs/client": "^3.0.0-beta.6",
+        "@rpgjs/default-gui": "^3.0.0-beta.6",
+        "@rpgjs/gamepad": "^3.0.0-beta.6",
+        "@rpgjs/mobile-gui": "^3.0.0-beta.6",
+        "@rpgjs/server": "^3.0.0-beta.6",
+        "@rpgjs/standalone": "^3.0.0-beta.6",
+        "@rpgjs/testing": "^3.0.0-beta.6",
         "express": "4.17.1",
         "socket.io": "4.1.2",
         "socket.io-client": "4.1.2",
-        "vue": "3.0.11"
+        "vue": "^3.2.31"
     },
     "devDependencies": {
-        "@rpgjs/compiler": "^3.0.0-beta.4",
+        "@rpgjs/compiler": "^3.0.0-beta.6",
         "@types/jest": "26.0.23",
         "canvas": "2.8.0",
         "jest": "27.0.4",
         "rimraf": "3.0.2",
         "ts-jest": "27.0.2",
-        "typescript": "4.3.2",
-        "webpack": "4.46.0",
-        "webpack-cli": "3.3.12"
+        "typescript": "4.3.2"
     }
 }

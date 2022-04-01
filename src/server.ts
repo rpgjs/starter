@@ -3,12 +3,14 @@ import http from 'http'
 import express from 'express'
 import bodyParser from 'body-parser'
 import { Server } from 'socket.io'
+import PrettyError from 'pretty-error'
 import { entryPoint } from '@rpgjs/server'
 import globalConfig from './config/server'
 import modules from './modules' 
 
 const PORT = process.env.PORT || 3000
 
+const pe = new PrettyError()
 const app = express()
 const server = http.createServer(app)
 const io = new Server(server, {
@@ -27,4 +29,12 @@ server.listen(PORT, () =>  {
     console.log(`
         ===> MMORPG is running on http://localhost:${PORT} <===
     `)
+})
+
+process.on('uncaughtException', function(error){
+    console.log(pe.render(error))
 }) 
+
+process.on('unhandledRejection', function(reason: any){
+    console.log(pe.render(reason)) 
+})

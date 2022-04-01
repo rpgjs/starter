@@ -1,23 +1,27 @@
+import { RpgClientEngine } from '@rpgjs/client'
 import { RpgWorld, RpgPlayer } from '@rpgjs/server'
 import { testing, clear } from '@rpgjs/testing'
 import main from '../src/modules/main'
-import defaultGui from '@rpgjs/default-gui' 
 
 let player: RpgPlayer
+let client: RpgClientEngine
+let playerId: string
 
 beforeEach(async () => {
     const fixture = testing([
-        main,
-        defaultGui
+        main
     ], {
         basePath: __dirname + '/../'
     })
-    const client = await fixture.createClient()
-    player = RpgWorld.getPlayer(client.playerId)
+    const clientFixture = await fixture.createClient()
+    client = clientFixture.client
+    playerId = clientFixture.playerId
+    player = RpgWorld.getPlayer(playerId)
 })
 
 test('test player', () => {
-    expect(player).toBeDefined()
+    expect(player).toBeDefined() // player, server side
+    expect(client).toBeDefined() // player, client side
 })
 
 afterEach(() => {

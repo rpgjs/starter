@@ -27,4 +27,4 @@
         "tests", 
         "node_modules/@rpgjs/compiler/types/*.d.ts"
     ]
-  }
+ }

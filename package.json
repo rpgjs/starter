@@ -28,6 +28,7 @@
         "@rpgjs/standalone": "^3.0.0-beta.6",
         "@rpgjs/testing": "^3.0.0-beta.6",
         "express": "4.17.1",
+        "pretty-error": "^4.0.0",
         "socket.io": "4.1.2",
         "socket.io-client": "4.1.2",
         "vue": "^3.2.31"
@@ -35,6 +36,8 @@
     "devDependencies": {
         "@rpgjs/compiler": "^3.0.0-beta.6",
         "@types/jest": "26.0.23",
+        "@vue/compiler-sfc": "^3.2.31",
+        "@vue/vue3-jest": "^27.0.0-alpha.4",
         "canvas": "2.8.0",
         "jest": "27.0.4",
         "rimraf": "3.0.2",

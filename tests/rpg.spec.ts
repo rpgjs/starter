@@ -1,6 +1,7 @@
 import { RpgClientEngine } from '@rpgjs/client'
 import { RpgWorld, RpgPlayer } from '@rpgjs/server'
 import { testing, clear } from '@rpgjs/testing'
+import defaultGui from '@rpgjs/default-gui'
 import main from '../src/modules/main'
 
 let player: RpgPlayer
@@ -9,7 +10,8 @@ let playerId: string
 
 beforeEach(async () => {
     const fixture = testing([
-        main
+        main,
+        defaultGui
     ], {
         basePath: __dirname + '/../'
     })

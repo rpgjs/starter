@@ -2,7 +2,7 @@ import { RpgMap, MapData } from '@rpgjs/server'
 import { VillagerEvent } from '../events/villager'
 
 @MapData({
-    id: 'mymap',
+    id: 'simplemap',
     file: require('./tmx/simplemap.tmx'),
     name: 'Forest',
     events: [

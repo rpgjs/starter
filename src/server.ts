@@ -19,12 +19,11 @@ const io = new Server(server, {
 
 app.use(bodyParser.json())
 
-const rpgGame = entryPoint(modules, { io, basePath: __dirname, globalConfig })
-rpgGame.app = app // Useful for plugins (monitoring, backend, etc.)
-
 app.use('/', express.static(__dirname + '/../client'))
 
-server.listen(PORT, () =>  {
+server.listen(PORT, async () =>  {
+    const rpgGame = await entryPoint(modules, { io, basePath: __dirname, globalConfig })
+    rpgGame.app = app // Useful for plugins (monitoring, backend, etc.)
     rpgGame.start()
     console.log(`
         ===> MMORPG is running on http://localhost:${PORT} <===

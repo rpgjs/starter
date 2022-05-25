@@ -9,7 +9,7 @@ let client: RpgClientEngine
 let playerId: string
 
 beforeEach(async () => {
-    const fixture = testing([
+    const fixture = await testing([
         main,
         defaultGui
     ], {

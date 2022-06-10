@@ -24,17 +24,17 @@
         "@rpgjs/default-gui": "^3.0.0-beta.9",
         "@rpgjs/gamepad": "^3.0.0-beta.9",
         "@rpgjs/mobile-gui": "^3.0.0-beta.9",
-        "@rpgjs/server": "^3.0.0-beta.9",
-        "@rpgjs/standalone": "^3.0.0-beta.9",
+        "@rpgjs/server": "^3.0.0-beta.9.2",
+        "@rpgjs/standalone": "^3.0.0-beta.9.1",
         "@rpgjs/testing": "^3.0.0-beta.9",
         "express": "4.17.1",
         "pretty-error": "^4.0.0",
         "socket.io": "4.1.2",
         "socket.io-client": "4.1.2",
-        "vue": "^3.2.36"
+        "vue": "^3.2.37"
     },
     "devDependencies": {
-        "@rpgjs/compiler": "^3.0.0-beta.9",
+        "@rpgjs/compiler": "^3.0.0-beta.9.1",
         "@types/jest": "26.0.23",
         "@vue/cli-plugin-babel": "^5.0.4",
         "@vue/compiler-sfc": "3.2.33",

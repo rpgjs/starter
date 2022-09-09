@@ -19,4 +19,4 @@ import { player } from './player'
         SampleMap
     ]
 })
-export default class RpgServerEngine {}
+export default class RpgServerModuleEngine {}

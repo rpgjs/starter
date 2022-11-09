@@ -1,4 +1,4 @@
-import { inputs } from './inputs'
+import { inputs } from '../inputs'
 
 export default {
     inputs

@@ -1,6 +1,6 @@
-import { Input, Control } from '@rpgjs/client'
+import { Input, Control, Controls } from '@rpgjs/types'
 
-export const inputs = {
+export const inputs: Controls = {
     [Control.Up]: {
         repeat: true,
         bind: Input.Up

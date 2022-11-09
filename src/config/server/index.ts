@@ -1,1 +1,5 @@
-export default {}
+import { inputs } from '../inputs'
+
+export default {
+    inputs
+}

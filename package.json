@@ -1,6 +1,6 @@
 {
     "name": "my-game",
-    "version": "3.3.0",
+    "version": "3.3.2",
     "description": "",
     "main": "dist/server.js",
     "types": "index.d.ts",
@@ -20,11 +20,11 @@
         "node": "<15"
     },
     "dependencies": {
-        "@rpgjs/client": "^3.3.1",
+        "@rpgjs/client": "^3.3.2",
         "@rpgjs/default-gui": "^3.3.0",
         "@rpgjs/gamepad": "^3.3.0",
         "@rpgjs/mobile-gui": "^3.3.0",
-        "@rpgjs/server": "^3.3.1",
+        "@rpgjs/server": "^3.3.2",
         "@rpgjs/standalone": "^3.3.0",
         "@rpgjs/testing": "^3.3.0",
         "@rpgjs/types": "^3.3.0",

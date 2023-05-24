@@ -8,9 +8,6 @@ To create a new project based on this template using [degit](https://github.com/
 npx degit rpgjs/starter rpg-app
 cd rpg-app
 ```
-
-*Note that you will need to have [Node.js 14 only](https://nodejs.org) installed.*
-
 ## Get started
 
 Install the dependencies...

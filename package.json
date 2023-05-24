@@ -1,49 +1,25 @@
 {
     "name": "my-game",
-    "version": "3.3.2",
-    "description": "",
-    "main": "dist/server.js",
-    "types": "index.d.ts",
-    "publishConfig": {
-        "access": "public"
-    },
     "scripts": {
-        "test": "NODE_ENV=test jest",
-        "build": "rimraf dist && rpgjs build",
+        "build": "rpgjs build",
         "dev": "rpgjs dev",
-        "start": "node dist/server"
+        "start": "node dist/server/main.js"
     },
-    "keywords": [],
-    "author": "",
-    "license": "MIT",
     "engines": {
-        "node": "<15"
+        "node": ">=18"
     },
     "dependencies": {
-        "@rpgjs/client": "^3.3.2",
-        "@rpgjs/default-gui": "^3.3.0",
-        "@rpgjs/gamepad": "^3.3.0",
-        "@rpgjs/mobile-gui": "^3.3.0",
-        "@rpgjs/server": "^3.3.2",
-        "@rpgjs/standalone": "^3.3.0",
-        "@rpgjs/testing": "^3.3.0",
-        "@rpgjs/types": "^3.3.0",
-        "express": "4.17.1",
-        "pretty-error": "^4.0.0",
-        "socket.io": "4.1.2",
-        "socket.io-client": "4.1.2",
-        "vue": "^3.2.47"
+        "@rpgjs/client": "4.0.0-beta.9",
+        "@rpgjs/default-gui": "^4.0.0-beta.9",
+        "@rpgjs/gamepad": "^4.0.0-beta.9",
+        "@rpgjs/mobile-gui": "^4.0.0-beta.9",
+        "@rpgjs/server": "4.0.0-beta.9",
+        "@rpgjs/standalone": "4.0.0-beta.9",
+        "@rpgjs/types": "4.0.0-beta.9",
+        "socket.io-client": "4.6.1"
     },
     "devDependencies": {
-        "@rpgjs/compiler": "^3.3.0",
-        "@types/jest": "26.0.23",
-        "@vue/cli-plugin-babel": "^5.0.8",
-        "@vue/compiler-sfc": "3.2.33",
-        "@vue/vue3-jest": "27.0.0-alpha.4",
-        "canvas": "2.8.0",
-        "jest": "27.0.4",
-        "rimraf": "3.0.2",
-        "ts-jest": "27.0.2",
-        "typescript": "4.3.2"
+        "@rpgjs/compiler": "4.0.0-beta.9",
+        "typescript": "5.0.4"
     }
 }

@@ -3,23 +3,23 @@
     "scripts": {
         "build": "rpgjs build",
         "dev": "rpgjs dev",
-        "start": "node dist/server/main.js"
+        "start": "node dist/server/main.mjs"
     },
     "engines": {
         "node": ">=18"
     },
     "dependencies": {
-        "@rpgjs/client": "4.0.0-beta.9",
-        "@rpgjs/default-gui": "^4.0.0-beta.9",
-        "@rpgjs/gamepad": "^4.0.0-beta.9",
-        "@rpgjs/mobile-gui": "^4.0.0-beta.9",
-        "@rpgjs/server": "4.0.0-beta.9",
-        "@rpgjs/standalone": "4.0.0-beta.9",
-        "@rpgjs/types": "4.0.0-beta.9",
+        "@rpgjs/client": "4.0.0-beta.11",
+        "@rpgjs/default-gui": "^4.0.0-beta.11",
+        "@rpgjs/gamepad": "^4.0.0-beta.11",
+        "@rpgjs/mobile-gui": "^4.0.0-beta.11",
+        "@rpgjs/server": "4.0.0-beta.11",
+        "@rpgjs/standalone": "4.0.0-beta.11",
+        "@rpgjs/types": "4.0.0-beta.11",
         "socket.io-client": "4.6.1"
     },
     "devDependencies": {
-        "@rpgjs/compiler": "4.0.0-beta.9",
+        "@rpgjs/compiler": "4.0.0-beta.11",
         "typescript": "5.0.4"
     }
 }

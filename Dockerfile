@@ -12,4 +12,4 @@ COPY --from=build /build/package*.json ./
 ENV NODE_ENV=production
 RUN npm i
 EXPOSE 3000
-CMD node server
+CMD npm start

@@ -7,7 +7,7 @@ RUN npm run build
 
 FROM node:18-alpine
 WORKDIR /game
-COPY --from=build /build/dist ./
+COPY --from=build /build/dist ./dist
 COPY --from=build /build/package*.json ./
 ENV NODE_ENV=production
 RUN npm i

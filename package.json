@@ -9,17 +9,17 @@
         "node": ">=14"
     },
     "dependencies": {
-        "@rpgjs/client": "4.0.0-rc.5",
-        "@rpgjs/default-gui": "^4.0.0-rc.5",
-        "@rpgjs/gamepad": "^4.0.0-rc.5",
-        "@rpgjs/mobile-gui": "^4.0.0-rc.5",
-        "@rpgjs/server": "4.0.0-rc.5",
-        "@rpgjs/standalone": "4.0.0-rc.5",
-        "@rpgjs/types": "4.0.0-rc.5",
+        "@rpgjs/client": "4.0.0-rc.6",
+        "@rpgjs/default-gui": "^4.0.0-rc.6",
+        "@rpgjs/gamepad": "^4.0.0-rc.6",
+        "@rpgjs/mobile-gui": "^4.0.0-rc.6",
+        "@rpgjs/server": "4.0.0-rc.6",
+        "@rpgjs/standalone": "4.0.0-rc.6",
+        "@rpgjs/types": "4.0.0-rc.6",
         "socket.io-client": "4.7.2"
     },
     "devDependencies": {
-        "@rpgjs/compiler": "4.0.0-rc.5",
+        "@rpgjs/compiler": "4.0.0-rc.6",
         "typescript": "5.1.6"
     }
 }

@@ -1,4 +1,4 @@
-import { RpgPlayer, RpgPlayerHooks, Control, Components } from '@rpgjs/server'
+import { RpgPlayer, type RpgPlayerHooks, Control, Components } from '@rpgjs/server'
 
 const player: RpgPlayerHooks = {
     onConnected(player: RpgPlayer) {

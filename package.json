@@ -9,12 +9,12 @@
         "node": ">=14"
     },
     "dependencies": {
-        "@rpgjs/client": "4.2.1",
-        "@rpgjs/default-gui": "^4.2.1",
-        "@rpgjs/gamepad": "^4.2.1",
-        "@rpgjs/mobile-gui": "^4.2.1",
-        "@rpgjs/server": "4.2.1",
-        "@rpgjs/standalone": "4.2.1",
+        "@rpgjs/client": "4.2.2",
+        "@rpgjs/default-gui": "^4.2.2",
+        "@rpgjs/gamepad": "^4.2.2",
+        "@rpgjs/mobile-gui": "^4.2.2",
+        "@rpgjs/server": "4.2.2",
+        "@rpgjs/standalone": "4.2.2",
         "@rpgjs/types": "4.0.5",
         "socket.io-client": "4.7.4"
     },

@@ -1,52 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <title>RPG Game</title>
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimum-scale=1, width=device-width, height=device-height">
-</head>
-
-<body>
-    <div id="rpg"></div>
-    
+  <head>
+    <meta charset="utf-8" />
+    <title>RPGJS Game</title>
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1, user-scalable=no, minimum-scale=1, width=device-width, height=device-height"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/@rpgjs/ui-css/src/reset.css">
+    <link rel="stylesheet" href="./node_modules/@rpgjs/ui-css/src/index.css">
+    <link rel="stylesheet" href="./node_modules/@rpgjs/ui-css/src/tehme-default/theme.css">
     <style>
-        body,
-        html {
-            height: 100%;
-            overflow: hidden;
-        }
-
-        body {
-            margin: 0;
-            background-color: black; 
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #rpg {
-            position: relative;
-            
-        }
-
-        @media (min-width: 800px) {
-            #rpg {
-                width: 816px;
-                height: 624px;
-            }
-        }
-
-        @media (max-width: 800px) {
-            #rpg {
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-            }
-        }
+      body, #rpg {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+      }
     </style>
-</body>
-
+  </head>
+  <body>
+    <div id="rpg"></div>
+  </body>
 </html>

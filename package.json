@@ -1,25 +1,36 @@
 {
-    "name": "my-game",
+    "name": "myrpg",
+    "version": "1.0.0",
+    "main": "index.js",
     "scripts": {
-        "build": "rpgjs build",
-        "dev": "rpgjs dev",
-        "start": "node dist/server/main.mjs"
+      "dev": "vite",
+      "build": "vite build"
     },
-    "engines": {
-        "node": ">=14"
-    },
-    "dependencies": {
-        "@rpgjs/client": "4.3.0",
-        "@rpgjs/default-gui": "^4.3.0",
-        "@rpgjs/gamepad": "^4.3.0",
-        "@rpgjs/mobile-gui": "^4.3.0",
-        "@rpgjs/server": "4.3.0",
-        "@rpgjs/standalone": "4.3.0",
-        "@rpgjs/types": "4.0.5",
-        "socket.io-client": "4.7.4"
-    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "description": "",
     "devDependencies": {
-        "@rpgjs/compiler": "4.3.0",
-        "typescript": "5.3.3"
-    }
-}
+      "@canvasengine/compiler": "2.0.0-beta.53",
+      "@vitejs/plugin-vue": "^6.0.4",
+      "path-browserify": "^1.0.1",
+      "vite": "^7.3.1"
+    },
+    "private": true,
+    "dependencies": {
+      "@canvasengine/presets": "2.0.0-beta.53",
+      "@rpgjs/client": "5.0.0-alpha.36",
+      "@rpgjs/common": "5.0.0-alpha.36",
+      "@rpgjs/ui-css": "5.0.0-alpha.36",
+      "@rpgjs/server": "5.0.0-alpha.36",
+      "@rpgjs/tiledmap": "5.0.0-alpha.36",
+      "@rpgjs/vite": "5.0.0-alpha.36",
+      "@rpgjs/vue": "5.0.0-alpha.36",
+      "@rpgjs/action-battle": "5.0.0-alpha.36",
+      "@signe/di": "^2.8.3",
+      "canvasengine": "2.0.0-beta.53",
+      "pixi.js": "^8.16.0"
+    },
+    "type": "module"
+  }
+  

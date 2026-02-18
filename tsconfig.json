@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es2020",
-    "module": "esnext",
-    "outDir": "dist",
+    "target": "ES2020",
+    "lib": ["dom", "esnext"],
+    "module": "ES2020",
+    "outDir": "./lib",
+    "rootDir": "./src",
     "strict": true,
     "sourceMap": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": false,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "esModuleInterop": true,
     "removeComments": false,
     "noUnusedParameters": false,
@@ -15,19 +17,19 @@
     "noImplicitThis": false,
     "noImplicitAny": false,
     "noImplicitReturns": false,
-    "declaration": false,
-    "experimentalDecorators": true,
+    "declaration": true,
+    "experimentalDecorators": true, 
     "emitDecoratorMetadata": true,
-    "types": [
-      "node",
-      "vite/client"
-    ],
-    "resolveJsonModule": true
+    "stripInternal": true,
+    "skipLibCheck": true
   },
   "include": [
-    ".",
-    "index.d.ts",
-    "node_modules/@rpgjs/**/*.d.ts",
-    "node_modules/@rpgjs/compiler/index.d.ts"
-  ]
+      "src",
+      "src/types/**/*",
+      "node_modules/canvasengine/*"
+, "public/spritesheets"  ],
+  "typeRoots": [
+      "node_modules/@types",
+      "src/types"
+  ],
 }

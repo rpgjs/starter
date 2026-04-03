@@ -16,6 +16,11 @@ export default {
             id: 'hero',
             image: 'spritesheets/hero.png',
             ...Presets.RMSpritesheet(3, 4)
+          },
+          {
+            id: 'female',
+            image: 'spritesheets/female.png',
+             ...Presets.RMSpritesheet(3, 4)
           }
         ]
       }

@@ -14,7 +14,7 @@
     "@canvasengine/compiler": "2.0.0-rc.4",
     "@vitejs/plugin-vue": "^6.0.7",
     "path-browserify": "^1.0.1",
-    "vite": "^8.0.13"
+    "vite": "^8.0.14"
   },
   "private": true,
   "dependencies": {

@@ -14,7 +14,7 @@
     "@canvasengine/compiler": "2.0.0-rc.4",
     "@rpgjs/testing": "5.0.0-beta.11",
     "@rpgjs/vite": "5.0.0-beta.11",
-    "vite": "^8.0.13",
+    "vite": "^8.0.14",
     "vitest": "^4.1.7"
   },
   "dependencies": {

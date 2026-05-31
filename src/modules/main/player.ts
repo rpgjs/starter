@@ -6,7 +6,7 @@ export const player: RpgPlayerHooks = {
             x: 300,
             y: 300
         })
-        player.name.set('YourName')
+        player.name = 'YourName'
         player.setGraphic('hero')
     },
     onInput(player: RpgPlayer, { action }) {

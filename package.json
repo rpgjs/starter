@@ -28,7 +28,7 @@
     "@rpgjs/studio": "5.0.0-beta.16",
     "@signe/di": "^3.0.1",
     "canvasengine": "2.0.0-rc.4",
-    "pixi.js": "8.18.1",
+    "pixi.js": "8.19.0",
     "vite-plugin-dts": "^5.0.2"
   },
   "type": "module"

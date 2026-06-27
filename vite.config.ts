@@ -4,6 +4,9 @@ import startServer from './src/server';
 
 
 export default defineConfig({
+  optimizeDeps: {
+    include: ['pixi.js > @xmldom/xmldom']
+  },
   plugins: [
     ...rpgjs({
       server: startServer

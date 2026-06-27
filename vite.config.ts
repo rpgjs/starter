@@ -4,7 +4,7 @@ import startServer from './src/server';
 
 export default defineConfig({
   optimizeDeps: {
-    include: ['parse-svg-path', '@xmldom/xmldom']
+    include: ['pixi.js > @xmldom/xmldom']
   },
   plugins: [
     tiledMapFolderPlugin({

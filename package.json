@@ -14,18 +14,18 @@
     "@canvasengine/compiler": "2.0.0",
     "@vitejs/plugin-vue": "^6.0.7",
     "path-browserify": "^1.0.1",
-    "vite": "^8.1.0"
+    "vite": "^8.1.1"
   },
   "private": true,
   "dependencies": {
     "@canvasengine/presets": "2.0.0",
-    "@rpgjs/action-battle": "5.0.0-beta.23",
-    "@rpgjs/client": "5.0.0-beta.23",
-    "@rpgjs/common": "5.0.0-beta.22",
-    "@rpgjs/server": "5.0.0-beta.23",
-    "@rpgjs/tiledmap": "5.0.0-beta.23",
-    "@rpgjs/ui-css": "5.0.0-beta.21",
-    "@rpgjs/vite": "5.0.0-beta.23",
+    "@rpgjs/action-battle": "5.0.0-beta.24",
+    "@rpgjs/client": "5.0.0-beta.24",
+    "@rpgjs/common": "5.0.0-beta.23",
+    "@rpgjs/server": "5.0.0-beta.24",
+    "@rpgjs/tiledmap": "5.0.0-beta.24",
+    "@rpgjs/ui-css": "5.0.0-beta.22",
+    "@rpgjs/vite": "5.0.0-beta.24",
     "@signe/di": "^3.1.0",
     "canvasengine": "2.0.1",
     "pixi.js": "^8.19.0"

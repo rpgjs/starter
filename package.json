@@ -25,7 +25,7 @@
     "@rpgjs/server": "5.0.0-beta.25",
     "@rpgjs/tiledmap": "5.0.0-beta.25",
     "@rpgjs/ui-css": "5.0.0-beta.23",
-    "@rpgjs/studio": "5.0.0-beta.25",
+    "@rpgjs/studio": "5.0.0-beta.26",
     "@signe/di": "^3.1.0",
     "canvasengine": "2.0.1",
     "pixi.js": "8.19.0",

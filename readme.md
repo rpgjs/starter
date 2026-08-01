@@ -29,6 +29,12 @@ Navigate to [localhost:5173](http://localhost:5173). You should see your game ru
 NODE_ENV=production npm run build
 ```
 
+Verify that the production server can load the sample Tiled map:
+
+```bash
+npm run test:production
+```
+
 ## Resources
 
 [Documentation](https://v5.rpgjs.dev)

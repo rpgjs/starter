@@ -10,7 +10,7 @@ export default defineConfig({
     tiledMapFolderPlugin({
       sourceFolder: './src/tiled',      // Folder containing your TMX files
       publicPath: '/map',               // Public URL path for maps
-      buildOutputPath: 'assets/data'    // Build output directory
+      buildOutputPath: 'map'            // Match the runtime Tiled URL prefix
     }),
     ...rpgjs({
       server: startServer

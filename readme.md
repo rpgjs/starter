@@ -29,7 +29,8 @@ Navigate to [localhost:5173](http://localhost:5173). You should see your game ru
 NODE_ENV=production npm run build
 ```
 
-Verify that the production server can load the sample Tiled map:
+Verify that root and subpath production servers can load the sample Tiled map
+and bundled UI theme:
 
 ```bash
 npm run test:production

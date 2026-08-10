@@ -12,23 +12,23 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@canvasengine/compiler": "2.1.0",
+    "@canvasengine/compiler": "2.2.0",
     "@vitejs/plugin-vue": "^6.0.8",
     "path-browserify": "^1.0.1",
-    "vite": "^8.2.0"
+    "vite": "^8.2.1"
   },
   "private": true,
   "dependencies": {
-    "@canvasengine/presets": "2.1.0",
-    "@rpgjs/action-battle": "5.0.0-beta.29",
-    "@rpgjs/client": "5.0.0-beta.29",
-    "@rpgjs/common": "5.0.0-beta.27",
-    "@rpgjs/server": "5.0.0-beta.29",
-    "@rpgjs/tiledmap": "5.0.0-beta.29",
+    "@canvasengine/presets": "2.2.0",
+    "@rpgjs/action-battle": "5.0.0-beta.30",
+    "@rpgjs/client": "5.0.0-beta.30",
+    "@rpgjs/common": "5.0.0-beta.28",
+    "@rpgjs/server": "5.0.0-beta.30",
+    "@rpgjs/tiledmap": "5.0.0-beta.30",
     "@rpgjs/ui-css": "5.0.0-beta.25",
-    "@rpgjs/vite": "5.0.0-beta.29",
+    "@rpgjs/vite": "5.0.0-beta.30",
     "@signe/di": "^3.1.1",
-    "canvasengine": "2.1.1",
+    "canvasengine": "2.2.0",
     "pixi.js": "^8.19.0"
   },
   "type": "module"

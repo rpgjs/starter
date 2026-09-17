@@ -12,23 +12,23 @@
   "description": "",
   "devDependencies": {
     "@canvasengine/compiler": "2.2.0",
-    "@rpgjs/testing": "5.0.0-rc.1",
-    "@rpgjs/vite": "5.0.0-rc.1",
-    "vite": "^8.2.2",
-    "vitest": "^5.0.0"
+    "@rpgjs/testing": "5.0.0-rc.4",
+    "@rpgjs/vite": "5.0.0-rc.4",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.1"
   },
   "dependencies": {
     "@canvasengine/presets": "2.2.0",
-    "@rpgjs/action-battle": "5.0.0-rc.1",
-    "@rpgjs/client": "5.0.0-rc.1",
-    "@rpgjs/common": "5.0.0-rc.1",
-    "@rpgjs/server": "5.0.0-rc.1",
-    "@rpgjs/tiledmap": "5.0.0-rc.1",
-    "@rpgjs/ui-css": "5.0.0-rc.1",
-    "@rpgjs/studio": "5.0.0-rc.1",
+    "@rpgjs/action-battle": "5.0.0-rc.4",
+    "@rpgjs/client": "5.0.0-rc.4",
+    "@rpgjs/common": "5.0.0-rc.4",
+    "@rpgjs/server": "5.0.0-rc.4",
+    "@rpgjs/tiledmap": "5.0.0-rc.4",
+    "@rpgjs/ui-css": "5.0.0-rc.4",
+    "@rpgjs/studio": "5.0.0-rc.4",
     "@signe/di": "^3.1.1",
     "canvasengine": "2.2.0",
-    "pixi.js": "8.20.1",
+    "pixi.js": "8.21.0",
     "vite-plugin-dts": "^5.1.0"
   },
   "type": "module"

@@ -24,8 +24,8 @@ importers:
         specifier: 5.0.0-rc.4
         version: 5.0.0-rc.4(@canvasengine/presets@2.2.0(canvasengine@2.2.0(@types/react@19.2.14)(pixi.js@8.21.0)(react@19.2.4))(pixi.js@8.21.0))(@types/react@19.2.14)(pixi.js@8.21.0)(react@19.2.4)(vitest@5.0.1(@types/node@25.9.4)(vite@8.3.0(@types/node@25.9.4)(esbuild@0.27.3)))
       '@rpgjs/studio':
-        specifier: 5.0.0-rc.5
-        version: 5.0.0-rc.5(b2e54655cbf01a03d80403cbfa94c2f8)
+        specifier: 5.0.0-rc.6
+        version: 5.0.0-rc.6(b2e54655cbf01a03d80403cbfa94c2f8)
       '@rpgjs/tiledmap':
         specifier: 5.0.0-rc.4
         version: 5.0.0-rc.4(9ca272499dce46b2d38953b9458af52f)
@@ -42,8 +42,8 @@ importers:
         specifier: 8.21.0
         version: 8.21.0
       vite-plugin-dts:
-        specifier: ^5.1.0
-        version: 5.1.0(@microsoft/api-extractor@7.57.5(@types/node@25.9.4))(esbuild@0.27.3)(rolldown@1.2.9)(rollup@4.59.0)(typescript@6.0.3)(vite@8.3.0(@types/node@25.9.4)(esbuild@0.27.3))
+        specifier: ^5.1.1
+        version: 5.1.1(@microsoft/api-extractor@7.57.5(@types/node@25.9.4))(esbuild@0.27.3)(rolldown@1.2.9)(rollup@4.59.0)(typescript@6.0.3)(vite@8.3.0(@types/node@25.9.4)(esbuild@0.27.3))
     devDependencies:
       '@canvasengine/compiler':
         specifier: 2.2.0
@@ -651,8 +651,8 @@ packages:
   '@rpgjs/server@5.0.0-rc.4':
     resolution: {integrity: sha512-YhW9KL/UGcWXrDPfYvXnBygN7ahhdGZCjOBcjlc63YgtoT5LwRmuRf0bh0Z1JicteV7FnfvoZOHmPqYVaJj9DQ==}
 
-  '@rpgjs/studio@5.0.0-rc.5':
-    resolution: {integrity: sha512-qwZ8190Ex2617Cf3lp99nNBkqT/wbvx5TCdCbe8wuMfF8dy4SXRC7OJUWul/AxvzXtYnTBzo4dBJH4AWBn4orw==}
+  '@rpgjs/studio@5.0.0-rc.6':
+    resolution: {integrity: sha512-an8GjetohohVoVrZ2n3FMZyfhr1cILrWPpdZmysVyHxSHcAqxK3LD1MW1W9xrb1ttK9Z11dVTqKPeBmN94NuNQ==}
     peerDependencies:
       '@canvasengine/presets': ^2.1.0
       '@rpgjs/action-battle': 5.0.0-rc.4
@@ -1493,8 +1493,8 @@ packages:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
 
-  unplugin-dts@1.1.0:
-    resolution: {integrity: sha512-KZJ+qk+lmd9dJY/PJvDRFL9BUtVubKDiX7Ai/X6mlkCArcQNzwmupKjVqHbRA42uqO5ZfFRFc+o8/OCbQ1GonQ==}
+  unplugin-dts@1.1.1:
+    resolution: {integrity: sha512-Z2VcabC0hjYuzF62oWmZXVoxagkM8bUWgqUy+dotoJTPnooR5mNaxbpv63JCmcaxdGCW2Bb75omK6FOryOYCRg==}
     peerDependencies:
       '@microsoft/api-extractor': '>=7'
       '@rspack/core': ^1
@@ -1527,8 +1527,8 @@ packages:
     resolution: {integrity: sha512-5uKD0nqiYVzlmCRs01Fhs2BdkEgBS3SAVP6ndrBsuK42iC2+JHyxM05Rm9G8+5mkmRtzMZGY8Ct5+mliZxU/Ww==}
     engines: {node: '>=18.12.0'}
 
-  vite-plugin-dts@5.1.0:
-    resolution: {integrity: sha512-MfLc2G+mXPUDGGxpHQeYbdunavFP9UpT9yxiAsTgUXRxfEd3HqysSAM4E72jhz5eIz3OOexCHkqiVlQq8ok9/A==}
+  vite-plugin-dts@5.1.1:
+    resolution: {integrity: sha512-U5dyX3DPFvHB+gaJIULn90kKGsXNYllyJ3vn491Y+LGu2nL5Fb8z7YgurN/Pi6ZFlnGljh2wSM0ZbFogSh4yAg==}
     peerDependencies:
       '@microsoft/api-extractor': '>=7'
       rollup: '>=3'
@@ -2077,7 +2077,7 @@ snapshots:
     dependencies:
       '@types/estree': 1.0.8
       estree-walker: 2.0.2
-      picomatch: 4.0.4
+      picomatch: 4.0.7
     optionalDependencies:
       rollup: 4.59.0
 
@@ -2275,7 +2275,7 @@ snapshots:
       - react
       - vitest
 
-  '@rpgjs/studio@5.0.0-rc.5(b2e54655cbf01a03d80403cbfa94c2f8)':
+  '@rpgjs/studio@5.0.0-rc.6(b2e54655cbf01a03d80403cbfa94c2f8)':
     dependencies:
       '@canvasengine/presets': 2.2.0(canvasengine@2.2.0(@types/react@19.2.14)(pixi.js@8.21.0)(react@19.2.4))(pixi.js@8.21.0)
       '@rpgjs/action-battle': 5.0.0-rc.4(9ca272499dce46b2d38953b9458af52f)
@@ -2356,7 +2356,7 @@ snapshots:
       rxjs: 7.8.2
       typescript: 6.0.3
       vite: 8.3.0(@types/node@25.9.4)(esbuild@0.27.3)
-      vite-plugin-dts: 5.1.0(@microsoft/api-extractor@7.57.5(@types/node@25.9.4))(esbuild@0.27.3)(rolldown@1.2.9)(rollup@4.59.0)(typescript@6.0.3)(vite@8.3.0(@types/node@25.9.4)(esbuild@0.27.3))
+      vite-plugin-dts: 5.1.1(@microsoft/api-extractor@7.57.5(@types/node@25.9.4))(esbuild@0.27.3)(rolldown@1.2.9)(rollup@4.59.0)(typescript@6.0.3)(vite@8.3.0(@types/node@25.9.4)(esbuild@0.27.3))
       vitest: 4.1.9(@types/node@25.9.4)(vite@8.3.0(@types/node@25.9.4)(esbuild@0.27.3))
       ws: 8.21.0
     transitivePeerDependencies:
@@ -3230,7 +3230,7 @@ snapshots:
   universalify@2.0.1:
     optional: true
 
-  unplugin-dts@1.1.0(@microsoft/api-extractor@7.57.5(@types/node@25.9.4))(esbuild@0.27.3)(rolldown@1.2.9)(rollup@4.59.0)(typescript@6.0.3)(vite@8.3.0(@types/node@25.9.4)(esbuild@0.27.3)):
+  unplugin-dts@1.1.1(@microsoft/api-extractor@7.57.5(@types/node@25.9.4))(esbuild@0.27.3)(rolldown@1.2.9)(rollup@4.59.0)(typescript@6.0.3)(vite@8.3.0(@types/node@25.9.4)(esbuild@0.27.3)):
     dependencies:
       '@rollup/pluginutils': 5.3.0(rollup@4.59.0)
       '@volar/typescript': 2.4.28
@@ -3255,12 +3255,12 @@ snapshots:
     dependencies:
       '@jridgewell/remapping': 2.3.5
       acorn: 8.17.0
-      picomatch: 4.0.4
+      picomatch: 4.0.7
       webpack-virtual-modules: 0.6.2
 
-  vite-plugin-dts@5.1.0(@microsoft/api-extractor@7.57.5(@types/node@25.9.4))(esbuild@0.27.3)(rolldown@1.2.9)(rollup@4.59.0)(typescript@6.0.3)(vite@8.3.0(@types/node@25.9.4)(esbuild@0.27.3)):
+  vite-plugin-dts@5.1.1(@microsoft/api-extractor@7.57.5(@types/node@25.9.4))(esbuild@0.27.3)(rolldown@1.2.9)(rollup@4.59.0)(typescript@6.0.3)(vite@8.3.0(@types/node@25.9.4)(esbuild@0.27.3)):
     dependencies:
-      unplugin-dts: 1.1.0(@microsoft/api-extractor@7.57.5(@types/node@25.9.4))(esbuild@0.27.3)(rolldown@1.2.9)(rollup@4.59.0)(typescript@6.0.3)(vite@8.3.0(@types/node@25.9.4)(esbuild@0.27.3))
+      unplugin-dts: 1.1.1(@microsoft/api-extractor@7.57.5(@types/node@25.9.4))(esbuild@0.27.3)(rolldown@1.2.9)(rollup@4.59.0)(typescript@6.0.3)(vite@8.3.0(@types/node@25.9.4)(esbuild@0.27.3))
     optionalDependencies:
       '@microsoft/api-extractor': 7.57.5(@types/node@25.9.4)
       rollup: 4.59.0

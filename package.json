@@ -25,11 +25,11 @@
     "@rpgjs/server": "5.0.0-rc.4",
     "@rpgjs/tiledmap": "5.0.0-rc.4",
     "@rpgjs/ui-css": "5.0.0-rc.4",
-    "@rpgjs/studio": "5.0.0-rc.5",
+    "@rpgjs/studio": "5.0.0-rc.6",
     "@signe/di": "^3.1.1",
     "canvasengine": "2.2.0",
     "pixi.js": "8.21.0",
-    "vite-plugin-dts": "^5.1.0"
+    "vite-plugin-dts": "^5.1.1"
   },
   "type": "module"
 }

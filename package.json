@@ -20,13 +20,13 @@
   "private": true,
   "dependencies": {
     "@canvasengine/presets": "2.2.0",
-    "@rpgjs/action-battle": "5.0.0-rc.4",
-    "@rpgjs/client": "5.0.0-rc.4",
+    "@rpgjs/action-battle": "5.0.0-rc.5",
+    "@rpgjs/client": "5.0.0-rc.5",
     "@rpgjs/common": "5.0.0-rc.4",
-    "@rpgjs/server": "5.0.0-rc.4",
-    "@rpgjs/tiledmap": "5.0.0-rc.4",
+    "@rpgjs/server": "5.0.0-rc.5",
+    "@rpgjs/tiledmap": "5.0.0-rc.5",
     "@rpgjs/ui-css": "5.0.0-rc.4",
-    "@rpgjs/vite": "5.0.0-rc.4",
+    "@rpgjs/vite": "5.0.0-rc.5",
     "@signe/di": "^3.1.1",
     "canvasengine": "2.2.0",
     "pixi.js": "^8.21.0"

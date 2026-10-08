@@ -15,7 +15,7 @@
     "@canvasengine/compiler": "2.4.0",
     "@vitejs/plugin-vue": "^6.0.9",
     "path-browserify": "^1.0.1",
-    "vite": "^8.3.1"
+    "vite": "^8.3.4"
   },
   "private": true,
   "dependencies": {
@@ -29,7 +29,7 @@
     "@rpgjs/vite": "5.0.0",
     "@signe/di": "^3.1.1",
     "canvasengine": "2.4.0",
-    "pixi.js": "^8.21.0"
+    "pixi.js": "^8.22.0"
   },
   "type": "module"
 }
